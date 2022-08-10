@@ -2,12 +2,12 @@
   "dependencies": {
     "apollo-server": "^3.10.0",
     "graphql": "^16.5.0",
+    "lodash": "^4.17.21",
     "nodemon": "^2.0.19"
   },
   "name": "pedrotech-course",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
