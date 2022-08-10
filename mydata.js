@@ -1,10 +1,27 @@
-export const users = [
+const userList = [
   {
     id: 1,
     name: "vedant",
     username: "master300",
     age: 20,
     nationality: "Indian",
+    friends: [
+      {
+        id: 2,
+        name: "akshit",
+        username: "akmadan",
+        age: 21,
+        nationality: "Pakistani",
+      },
+
+      {
+        id: 3,
+        name: "ishan",
+        username: "itshan",
+        age: 22,
+        nationality: "Indonesian",
+      },
+    ],
   },
   {
     id: 2,
@@ -35,3 +52,5 @@ export const users = [
     nationality: "Canadian",
   },
 ];
+
+module.exports = { userList };
